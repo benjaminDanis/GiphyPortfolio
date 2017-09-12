@@ -1,0 +1,98 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+}	
+
+h1{
+	color: white;
+	text-align: center;
+	text-shadow: -1px 0 #36DFFF, 0 1px #36DFFF, 1px 0 #36DFFF, 0 -1px #36DFFF;
+	font-size: 400%;
+
+
+}
+
+body{
+	background-image: url("darkness.png");
+}
+
+#tvForm{
+	display: block;
+	margin: 8px auto;
+	width: 40%;
+}
+
+#gifGroup{
+	
+	
+	display: block;
+	width: 95%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#tvSubmit{
+	text-decoration: none;
+	background: white;
+	cursor: pointer;
+
+}
+
+form{
+	
+	
+	background-color: white; 
+    border: 3px solid #6593FD;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+    margin: 8px 0px;
+     -webkit-animation-delay: .4s;  
+    animation-delay: 2s;
+
+}
+
+#buttonGroup{
+	width: 80%;
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+	 -webkit-animation-delay: .4s;  
+    animation-delay: 1s;
+
+}
+
+.gifSelect{
+	 background-color: white; 
+    border: 2px solid #555555;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 8px;
+    cursor: pointer;
+   
+
+}
+
+.gifs{
+	border: 3px solid black;
+	margin: 5px;
+
+}
+
+.gifs {
+    opacity: 0.75;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.gifs:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
